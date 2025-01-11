@@ -1,0 +1,34 @@
+@media screen and (max-width: 992px) {
+  nav > :nth-child(3) {
+    display: none;
+  }
+
+  /* Section 3 - Các chứng chỉ */
+
+  .section-3 .section-title {
+    margin: 50px 30px;
+    padding-top: 30px;
+  }
+
+  .section-3 .section-content {
+    margin: 0 30px;
+  }
+
+  .certificate:nth-of-type(2) {
+    padding-left: 12px;
+    border-left: 2px solid #d6c08d;
+  }
+  .row-1,
+  .row-2 {
+    gap: 15px;
+  }
+
+  .funix {
+    padding-bottom: 20px;
+  }
+
+  /* Section 4 - Các dự án */
+  .section-4 {
+    margin: 20px 0px;
+  }
+}
