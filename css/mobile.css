@@ -1,0 +1,51 @@
+@media screen and (max-width: 576px) {
+  /* Thanh Navbar */
+  nav > :nth-child(3) {
+    display: none;
+  }
+  nav {
+    flex-direction: column;
+    height: auto;
+  }
+  nav > * {
+    border: none;
+  }
+  .item:last-child {
+    border: none;
+  }
+
+  /* Section 1 */
+
+  /* Section 3 - Các chứng chỉ */
+
+  .section-3 .section-title {
+    margin: 50px 30px;
+    padding-top: 30px;
+  }
+
+  .section-3 .section-content {
+    margin: 0 30px;
+  }
+
+  .certificate:nth-of-type(2) {
+    padding-left: 0px;
+    border-left: none;
+  }
+
+  .row-1,
+  .row-2 {
+    border-bottom: none;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .certificate {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #d6c08d;
+    padding: 10px;
+  }
+  .row-2 .certificate:nth-of-type(2) {
+    display: none;
+  }
+}
